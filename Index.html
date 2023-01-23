@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    
+    <link rel="stylesheet" href="Index.css" />
+</head>
+
+<body>
+    
+    <div class="Entry">
+        <h1>Select Game Level</h1>
+        <select name="Game level">
+            <option value="">Choose an option</option>
+            <option value="Level">level1</option>
+        </select>
+    
+       <h2 class="name">Enter Your Name </h2>
+<form action="game.html" method="get">
+    <input  type="text" name="username" id="UserName" placeholder="Enter Your Name" required><br>
+</form>
+       
+        <button onclick="welcome()"><a href="game.html">Go</a></button>
+       
+    </div>
+
+
+
+   <div class="points">
+
+   <h1>Game Bird Shooting Points</h1>
+   <h2 >+5 Points</h2>
+   <h2>+10 Points</h2>
+   <h2>-10 Points</h2>
+   </div>
+
+
+  <script src="gamefunction.js"></script> 
+  <!-- <script src="gameconsuming.js"></script>    -->
+ 
+</body>
+</html>
