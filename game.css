@@ -4,4 +4,41 @@ body{
     background-image: url(Project_Images/Background_2.webp);
     background-size: cover;
     }
+    button{
+        background: green;
+        color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 8px 5px;
+        cursor: pointer;
+    }
+    button:hover{
+        transform: scale(1.2);
+        transition-duration:0.5s;
+    }
     
+
+    
+
+          .box{
+
+                width: 200px;
+                height: 50px;
+                border:2px solid rgb(104, 99, 99);
+                border-radius: 20px;
+                background-color: rgb(240, 240, 240);
+                align-items: flex-start;
+
+            }
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+        
+        
+            
