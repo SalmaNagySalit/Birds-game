@@ -13,6 +13,7 @@ if(localStorage.length >0){
  welcomeblock.style.height = '250px';
  welcomeblock.style.margin = 'auto';
  welcomeblock.style.textAlign = 'center';
+ 
        welcparagraph.textContent = 'We hope you enjoy our game';
     rolesP.textContent = 'To win, you should kill 25(black and white) birds in specified time'
 }
